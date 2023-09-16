@@ -1,38 +1,92 @@
 const questions = [
     {
-        question: "Which is the largest animal in the world?",
+        question: "What is the national bird of India?",
         answers: [
-            { text: "Shark", correct: false},
-            { text: "Blue whale", correct: true},
+            { text: "Tiger", correct: false},
             { text: "Elephant", correct: false},
-            { text: "Giraffe", correct: false},
+            { text: "Peacock", correct: true},
+            { text: "Lion", correct: false},
         ]
     },
     {
-        question: "Which is the smallest country in the world?",
+        question: "Which animal is the national symbol of India?",
         answers: [
-            { text: "Vatican City", correct: true},
-            { text: "Bhutan", correct: false},
-            { text: "Nepal", correct: false},
-            { text: "Shri Lanka", correct: false},
+            { text: "Lion", correct: true},
+            { text: "Elephant", correct: false},
+            { text: "Tiger", correct: false},
+            { text: "Camel", correct: false},
         ]
     },
     {
-        question: "Which is the largest desert in the world?",
+        question: " What is the national flower of India?",
         answers: [
-            { text: "Kalhari", correct: false},
-            { text: "Gobi", correct: false},
-            { text: "Sahara", correct: false},
-            { text: "Antarctica", correct: true},
+            { text: "Sunflower", correct: false},
+            { text: "Rose", correct: false},
+            { text: "Lotus", correct: true},
+            { text: "Jasmine", correct: false},
         ]
     },
     {
-        question: "Which is the smallest continent in the world?",
+        question: "Which river is often referred to as the 'Ganga of the South' and is one of the major rivers in India?",
         answers: [
-            { text: "Asia", correct: false},
-            { text: "Australia", correct: true},
-            { text: "Arctic", correct: false},
-            { text: "Africa", correct: false},
+            { text: "Yamuna", correct: false},
+            { text: "Brahmaoutra", correct: false},
+            { text: "Godavari", correct: true},
+            { text: "Ganges", correct: false},
+        ]
+    },
+    {
+        question: "Who wrote the Indian national anthem 'Jana Gana Mana'?",
+        answers: [
+            { text: " Rabindranath Tagore", correct: true},
+            { text: "Mahatma Gandhi", correct: false},
+            { text: "Jawaharlal Nehru", correct: false},
+            { text: "Subhas Chandra Bose", correct: false},
+        ]
+    },
+    {
+        question: " What is the national emblem of India called?",
+        answers: [
+            { text: "Ashoka Pillar", correct: true},
+            { text: " Taj Mahal", correct: false},
+            { text: "Red Fort", correct: false},
+            { text: "Qutub Minar", correct: false},
+        ]
+    },
+    {
+        question: "Which Indian state is known as the 'Land of Five Rivers'?",
+        answers: [
+            { text: "Panjab", correct: true},
+            { text: "Rajasthan", correct: false},
+            { text: "Uttar Pradesh", correct: false},
+            { text: "Maharastra", correct: false},
+        ]
+    },
+    {
+        question: "What is the currency of India?",
+        answers: [
+            { text: "Rupee", correct: true},
+            { text: "Dollar", correct: false},
+            { text: "Euro", correct: false},
+            { text: "Yen", correct: false},
+        ]
+    },
+    {
+        question: "Which Indian festival is known as the 'Festival of Lights'?",
+        answers: [
+            { text: "Diwali", correct: true},
+            { text: "Holi", correct: false},
+            { text: "Eid", correct: false},
+            { text: "Christmus", correct: false},
+        ]
+    },
+    {
+        question: "Who is known as the 'Father of the Nation' in India?",
+        answers: [
+            { text: "Sardar Patel", correct: false},
+            { text: "Bhagat Singh", correct: false},
+            { text: "Mahatma Gandhi", correct: true},
+            { text: "Jawaharlal Nehru", correct: false},
         ]
     },
 ];
